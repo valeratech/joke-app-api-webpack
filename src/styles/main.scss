@@ -24,6 +24,26 @@ header {
   align-items: center;
 }
 
+button {
+  border: none;
+  background-color: #fcc52a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #fcc52a;
+  outline: 2px solid #fcc52a;
+  outline-offset: 2px;
+  color: #ffffff;
+}
+
+button:active {
+  color: #000000;
+  background-color: #dfb02a;
+}
+
 .joke-box {
   width: 500px;
   height: auto;

@@ -4595,8 +4595,10 @@ __webpack_require__.r(__webpack_exports__);
 const comedianImg = document.getElementById('comedian');
 comedianImg.src = _assets_standup_png__WEBPACK_IMPORTED_MODULE_2__;
 
+const jokeBtn = document.querySelector('.get-joke');
+jokeBtn.addEventListener('click', _generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"]);
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle7a1bf086dbdb9468983b.js.map
+//# sourceMappingURL=bundle949c7d43e0af2afebdf1.js.map

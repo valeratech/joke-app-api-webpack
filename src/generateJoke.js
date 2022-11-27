@@ -7,7 +7,7 @@ const generateJoke = function() {
         }
     }
     axios.get('https://icanhazdadjoke.com', config).then(res => {
-        document.getElementById('joke').innerHTML = res.data.joke;
+        document.getElementById('joke').innerHTML = `"${res.data.joke}"`;
     })
 };
 

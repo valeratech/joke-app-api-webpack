@@ -17,6 +17,10 @@ header {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 3.052rem
+}
+
 .joke-container {
   height: 80vh;
   display: flex;
@@ -30,6 +34,8 @@ button {
   color: #ffffff;
   padding: 20px;
   border-radius: 15px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 button:hover {
@@ -47,6 +53,14 @@ button:active {
 .joke-box {
   width: 500px;
   height: auto;
+}
+
+.joke-prompt {
+  display: flex;
+  font-size: 1.563rem;
+  border: solid 5px #2a9ab5;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 footer {

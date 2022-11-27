@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n.joke-container {\n  width: 500px;\n  background-color: yellow;\n  margin: 0 auto;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAEA;EACE,sBAAA;EACA,UAAA;EACA,SAAA;AAAF;;AAGA;EACE,YAAA;EAEA,wBAAA;EACA,cAAA;AADF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0\n}\n\n.joke-container {\n  width: 500px;\n  //height: 500px;\n  background-color: yellow;\n  margin: 0 auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\nheader {\n  background-color: #fcc52a;\n  padding: 50px;\n  text-transform: uppercase;\n}\n\n.joke-container {\n  height: 80vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.joke-box {\n  width: 500px;\n  height: auto;\n}\n\nfooter {\n  color: #ffffff;\n  text-align: center;\n  padding: 50px 0;\n  background-color: #303030;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAEA;EACE,sBAAA;EACA,UAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;AAAF;;AAGA;EACE,yBAAA;EACA,aAAA;EACA,yBAAA;AAAF;;AAGA;EACE,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,YAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;EACA,kBAAA;EACA,eAAA;EACA,yBAAA;AAAF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\nheader {\n  background-color: #fcc52a;\n  padding: 50px;\n  text-transform: uppercase;\n}\n\n.joke-container {\n  height: 80vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.joke-box {\n  width: 500px;\n  height: auto;\n}\n\nfooter {\n  color: #ffffff;\n  text-align: center;\n  padding: 50px 0;\n  background-color: #303030;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -4599,4 +4599,4 @@ comedianImg.src = _assets_standup_png__WEBPACK_IMPORTED_MODULE_2__;
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle9e0280f5b957315b5cc4.js.map
+//# sourceMappingURL=bundle5893fb4b5f9ae8dda9fa.js.map

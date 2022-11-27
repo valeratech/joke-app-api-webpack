@@ -6,9 +6,32 @@
   margin: 0
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #fcc52a;
+  padding: 50px;
+  text-transform: uppercase;
+}
+
 .joke-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke-box {
   width: 500px;
-  //height: 500px;
-  background-color: yellow;
-  margin: 0 auto;
+  height: auto;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #303030;
 }

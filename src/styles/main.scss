@@ -9,6 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #181818;
 }
 
 header {
@@ -51,19 +52,24 @@ button:active {
 }
 
 .joke-box {
-  width: 500px;
+  width: 600px;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
 }
 
 .joke-prompt {
   display: flex;
   font-size: 1.563rem;
-  border: solid 5px #2a9ab5;
-  border-radius: 15px;
-  padding: 20px;
-  padding-bottom: 0;
-  background-color: #dfeeff;
+  border-radius: 300px;
+  padding: 190px 70px 100px;
+  width: 600px;
+  padding-bottom: 25px;
+  background-color: #fff764;
   margin-bottom: 10px;
+
 }
 
 footer {

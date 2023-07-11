@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80410917-a2e0-4c84-b062-80974a735d84" name="Changes" comment="" />
+    <list default="true" id="80410917-a2e0-4c84-b062-80974a735d84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundlec3ae70b8453c743c9db8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundlec3ae70b8453c743c9db8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +44,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ryan/JavaScript/Odin/Rock_Paper_Scissors",
+    "last_opened_file_path": "/home/ryan/JavaScript/Odin/joke-app-api-webpack/src/styles",
     "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -54,6 +72,10 @@
       <option name="presentableId" value="Default" />
       <updated>1669570049385</updated>
       <workItem from="1669570051059" duration="18331000" />
+      <workItem from="1669593433619" duration="406000" />
+      <workItem from="1670098243796" duration="178000" />
+      <workItem from="1671303244522" duration="4022000" />
+      <workItem from="1689044552323" duration="4560000" />
     </task>
     <servers />
   </component>
